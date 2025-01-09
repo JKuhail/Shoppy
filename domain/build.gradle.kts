@@ -37,6 +37,14 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
+    /**
+     * koin
+     */
+    // we used 'api' instead of 'implementation' so this module will be
+    // accessible over all the modules which access the domain module
+    api(libs.koin.core)
+
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

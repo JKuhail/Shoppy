@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.jkuhail.shoppy"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.jkuhail.shoppy"
@@ -55,6 +55,10 @@ dependencies {
      */
     implementation(libs.koin.android)
     implementation(libs.koin.androidx.compose)
+    /**
+     * compose navigation
+     */
+    implementation(libs.compose.navigation)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

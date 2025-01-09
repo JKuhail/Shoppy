@@ -17,7 +17,7 @@ android {
 
     buildTypes {
         debug {
-            buildConfigField("String", "BASE_URL", "\"https://fakeapistore.com/\"")
+            buildConfigField("String", "BASE_URL", "\"https://fakestoreapi.com/\"")
         }
         release {
             isMinifyEnabled = false
@@ -25,7 +25,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
-            buildConfigField("String", "BASE_URL", "\"https://fakeapistore.com/\"")
+            buildConfigField("String", "BASE_URL", "\"https://fakestoreapi.com/\"")
         }
     }
     compileOptions {

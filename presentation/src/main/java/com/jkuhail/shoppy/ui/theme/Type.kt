@@ -8,7 +8,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.jkuhail.shoppy.R
 
-val SpaceMono = FontFamily(
+val Poppins = FontFamily(
     Font(
         resId = R.font.poppins_thin,
         weight = FontWeight.Thin
@@ -49,46 +49,79 @@ val SpaceMono = FontFamily(
 
 // Set of Material typography styles to start with
 val Typography = Typography(
-    bodySmall = TextStyle(
-        fontFamily = SpaceMono,
-        fontWeight = FontWeight.Light,
-        fontSize = 12.sp,
-    ),
-    bodyMedium = TextStyle(
-        fontFamily = SpaceMono,
-        fontWeight = FontWeight.Normal,
-        fontSize = 14.sp
-    ),
-    bodyLarge = TextStyle(
-        fontFamily = SpaceMono,
-        fontWeight = FontWeight.Normal,
-        fontSize = 16.sp,
-        lineHeight = 24.sp,
-        letterSpacing = 0.5.sp
-    ),
-    labelMedium = TextStyle(
-        fontFamily = SpaceMono,
-        fontWeight = FontWeight.SemiBold,
-        fontSize = 16.sp
-    ),
-    headlineMedium = TextStyle(
-        fontFamily = SpaceMono,
-        fontWeight = FontWeight.Bold,
-        fontSize = 18.sp
-    ),
-    headlineLarge = TextStyle(
-        fontFamily = SpaceMono,
-        fontWeight = FontWeight.Bold,
-        fontSize = 20.sp
-    ),
     displayLarge = TextStyle(
-        fontFamily = SpaceMono,
+        fontFamily = Poppins,
         fontWeight = FontWeight.Bold,
         fontSize = 40.sp
     ),
     displayMedium = TextStyle(
-        fontFamily = SpaceMono,
-        fontWeight = FontWeight.Light,
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Bold,
+        fontSize = 34.sp
+    ),
+    displaySmall = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Medium,
+        fontSize = 30.sp
+    ),
+    headlineLarge = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Bold,
+        fontSize = 24.sp
+    ),
+    headlineMedium = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Medium,
         fontSize = 20.sp
     ),
+    headlineSmall = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Medium,
+        fontSize = 18.sp
+    ),
+    titleLarge = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Bold,
+        fontSize = 20.sp
+    ),
+    titleMedium = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Medium,
+        fontSize = 18.sp
+    ),
+    titleSmall = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Medium,
+        fontSize = 16.sp
+    ),
+    bodyLarge = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Normal,
+        fontSize = 16.sp
+    ),
+    bodyMedium = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Normal,
+        fontSize = 14.sp
+    ),
+    bodySmall = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Normal,
+        fontSize = 12.sp,
+    ),
+    labelLarge = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Medium,
+        fontSize = 14.sp
+    ),
+    labelMedium = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Medium,
+        fontSize = 12.sp
+    ),
+    labelSmall = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Medium,
+        fontSize = 10.sp
+    )
 )
